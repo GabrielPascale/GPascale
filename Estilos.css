@@ -99,16 +99,17 @@ header{
     list-style: none;
     gap: 40px;
     text-decoration: none;
+    justify-content: space-evenly;
     
 }
 .menulink{
     text-decoration: underline;
     font-size: 1.8em;
     color: black;
-    border: 2px;
+    border: 2px solid;
     color: rgb(209, 247, 255);
     padding: 1.2rem;
-    transition: all 1s;
+    transition: all 3s;
 
 }
 
@@ -128,6 +129,7 @@ header{
 .header-titulo{
     display: flex;
     font-size: 50px;
+    justify-content: center;
 }
 
 .flex-container{
@@ -174,4 +176,10 @@ header{
 }
 .grid-footer{
     display: grid;
+}
+
+.img{
+    display: flex;
+    justify-content:center ;   
+
 }
